@@ -97,7 +97,7 @@ const About = () => {
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                <div className="text-3xl font-bold text-secondary">4+</div>
+                <div className="text-3xl font-bold text-secondary">4.5+</div>
                 <div className="text-sm text-muted-foreground">
                   Years Experience
                 </div>
@@ -107,7 +107,7 @@ const About = () => {
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                <div className="text-3xl font-bold text-accent">10+</div>
+                <div className="text-3xl font-bold text-accent">6+</div>
                 <div className="text-sm text-muted-foreground">
                   Happy Clients
                 </div>

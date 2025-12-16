@@ -16,12 +16,12 @@ const Projects = () => {
         "React",
         "Node.js",
         "MongoDB",
-        "Stripe",
+        "Razorpay",
         "JWT",
         "Tailwind CSS",
       ],
-      github: "https://github.com/iparkavan/e-commerce",
-      live: "#",
+      github: "https://github.com/iparkavan/zencart",
+      live: "https://zencart-sand.vercel.app/",
       featured: true,
       stats: {
         stars: 124,
@@ -31,21 +31,24 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Social Media Dashboard",
+      title: "Learning Management System (LMS)",
       description:
         "Real-time social media analytics dashboard with interactive charts, post scheduling, and multi-platform integration using React and Express.js.",
       image:
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
       technologies: [
         "React",
+        "Next.js",
+        "Node.js",
         "TypeScript",
         "Express.js",
-        "Socket.io",
-        "Charts.js",
+        "Razorpay",
+        "Prisma",
         "PostgreSQL",
+        "Tailwind CSS",
       ],
-      github: "#",
-      live: "#",
+      github: "https://github.com/iparkavan/maxskill.ai",
+      live: "https://maxskill-ai.vercel.app/",
       featured: true,
       stats: {
         stars: 89,
@@ -53,53 +56,53 @@ const Projects = () => {
         views: 1850,
       },
     },
-    {
-      id: 3,
-      title: "Task Management App",
-      description:
-        "Collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image:
-        "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      technologies: [
-        "Next.js",
-        "Prisma",
-        "PostgreSQL",
-        "NextAuth",
-        "Tailwind CSS",
-        "Framer Motion",
-      ],
-      github: "#",
-      live: "#",
-      featured: false,
-      stats: {
-        stars: 67,
-        forks: 23,
-        views: 1200,
-      },
-    },
-    {
-      id: 4,
-      title: "Weather Application",
-      description:
-        "Beautiful weather app with location-based forecasts, interactive maps, and weather alerts using modern React patterns.",
-      image:
-        "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      technologies: [
-        "React",
-        "TypeScript",
-        "Weather API",
-        "Leaflet",
-        "CSS Modules",
-      ],
-      github: "#",
-      live: "#",
-      featured: false,
-      stats: {
-        stars: 45,
-        forks: 18,
-        views: 890,
-      },
-    },
+    // {
+    //   id: 3,
+    //   title: "Task Management App",
+    //   description:
+    //     "Collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
+    //   image:
+    //     "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
+    //   technologies: [
+    //     "Next.js",
+    //     "Prisma",
+    //     "PostgreSQL",
+    //     "NextAuth",
+    //     "Tailwind CSS",
+    //     "Framer Motion",
+    //   ],
+    //   github: "#",
+    //   live: "#",
+    //   featured: false,
+    //   stats: {
+    //     stars: 67,
+    //     forks: 23,
+    //     views: 1200,
+    //   },
+    // },
+    // {
+    //   id: 4,
+    //   title: "Weather Application",
+    //   description:
+    //     "Beautiful weather app with location-based forecasts, interactive maps, and weather alerts using modern React patterns.",
+    //   image:
+    //     "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
+    //   technologies: [
+    //     "React",
+    //     "TypeScript",
+    //     "Weather API",
+    //     "Leaflet",
+    //     "CSS Modules",
+    //   ],
+    //   github: "#",
+    //   live: "#",
+    //   featured: false,
+    //   stats: {
+    //     stars: 45,
+    //     forks: 18,
+    //     views: 890,
+    //   },
+    // },
     {
       id: 5,
       title: "Chat Application",
@@ -113,6 +116,7 @@ const Projects = () => {
         "OpenAI API",
         "Socket.io",
         "MongoDB",
+        "Tailwind CSS",
         "JWT",
       ],
       github: "https://github.com/iparkavan/chat-app-client",
@@ -124,29 +128,29 @@ const Projects = () => {
         views: 3100,
       },
     },
-    {
-      id: 6,
-      title: "Portfolio Website",
-      description:
-        "This very portfolio website built with modern technologies, featuring smooth animations and responsive design.",
-      image:
-        "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
-      technologies: [
-        "React",
-        "TypeScript",
-        "Framer Motion",
-        "Tailwind CSS",
-        "Vite",
-      ],
-      github: "#",
-      live: "#",
-      featured: false,
-      stats: {
-        stars: 78,
-        forks: 29,
-        views: 1450,
-      },
-    },
+    // {
+    //   id: 6,
+    //   title: "Portfolio Website",
+    //   description:
+    //     "This very portfolio website built with modern technologies, featuring smooth animations and responsive design.",
+    //   image:
+    //     "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
+    //   technologies: [
+    //     "React",
+    //     "TypeScript",
+    //     "Framer Motion",
+    //     "Tailwind CSS",
+    //     "Vite",
+    //   ],
+    //   github: "#",
+    //   live: "https://park-avan-s-portfolio.vercel.app/",
+    //   featured: false,
+    //   stats: {
+    //     stars: 78,
+    //     forks: 29,
+    //     views: 1450,
+    //   },
+    // },
   ];
 
   const featuredProjects = projects.filter((p) => p.featured);

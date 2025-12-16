@@ -67,10 +67,13 @@ const Hero = () => {
                 View My Work
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button variant="outline" className="btn-secondary">
-                <FileText className="mr-2 h-5 w-5" />
-                Download Resume
-              </Button>
+              {/* parkavan_resume */}
+              <a href="/parkavan_resume.pdf" download>
+                <Button variant="outline">
+                  <FileText className="mr-2 h-5 w-5" />
+                  Download Resume
+                </Button>
+              </a>
             </motion.div>
 
             {/* Social Links */}
@@ -81,7 +84,8 @@ const Hero = () => {
               transition={{ delay: 1.1, duration: 0.8 }}
             >
               <motion.a
-                href="#"
+                href="https://github.com/iparkavan"
+                target="_blank"
                 className="text-muted-foreground hover:text-primary transition-colors p-2 rounded-full hover:bg-primary/10"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
@@ -89,7 +93,8 @@ const Hero = () => {
                 <Github className="h-6 w-6" />
               </motion.a>
               <motion.a
-                href="#"
+                href="https://www.linkedin.com/in/parkavan-suriyaprakasam-a9097a1ab/"
+                target="_blank"
                 className="text-muted-foreground hover:text-secondary transition-colors p-2 rounded-full hover:bg-secondary/10"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
@@ -97,7 +102,7 @@ const Hero = () => {
                 <Linkedin className="h-6 w-6" />
               </motion.a>
               <motion.a
-                href="#"
+                href="mailto:dev.avanpark@email.com"
                 className="text-muted-foreground hover:text-accent transition-colors p-2 rounded-full hover:bg-accent/10"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}

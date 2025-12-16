@@ -17,7 +17,7 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "ipark.avan@gmail.com",
+      value: "dev.avanpark@gmail.com",
       href: "mailto:ipark.avan@gmail.com",
     },
     {
@@ -138,6 +138,7 @@ const Contact = () => {
                     <motion.a
                       key={social.label}
                       href={social.href}
+                      target="_blank"
                       className={`w-12 h-12 bg-muted rounded-lg flex items-center justify-center text-muted-foreground transition-colors ${social.color}`}
                       initial={{ opacity: 0, scale: 0 }}
                       whileInView={{ opacity: 1, scale: 1 }}
@@ -262,7 +263,7 @@ const Contact = () => {
         </div>
 
         {/* Bottom CTA */}
-        <motion.div
+        {/* <motion.div
           className="text-center mt-20 p-8 card-elegant"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -280,7 +281,7 @@ const Contact = () => {
             <Button className="btn-primary">Schedule a Call</Button>
             <Button variant="outline">View My Resume</Button>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );
