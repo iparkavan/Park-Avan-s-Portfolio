@@ -102,7 +102,7 @@ const Hero = () => {
                 <Linkedin className="h-6 w-6" />
               </motion.a>
               <motion.a
-                href="mailto:dev.avanpark@email.com"
+                href="mailto:dev.avanpark@gmail.com"
                 className="text-muted-foreground hover:text-accent transition-colors p-2 rounded-full hover:bg-accent/10"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
